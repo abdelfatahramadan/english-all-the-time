@@ -9,7 +9,7 @@
 .btn{
     position: fixed;
     top: 15px;
-    left: 4.5%;
+    left: 7%;
     height: 45px;
     width: 45px;
     text-align: center;
@@ -19,7 +19,7 @@
     background: #000000 ;
 }
 .btn.click{
-    left: 26%;
+    left: 52%;
 }
 .btn span{
     color: white;
@@ -33,8 +33,8 @@
     position: fixed;
     background-color: #1b1b1b1b;
     height: 100%;
-    width: 25%;
-    left: -25%;
+    width: 50%;
+    left: -50%;
     transition: left .4s ease;
 }
 .sidebar.show{
@@ -43,7 +43,10 @@
 .sidebar .text{
     letter-spacing: 1px;
     color: white;
-    font-size: 25px;
+    text-shadow: 0 0 5px #f5eeee,
+                0 0 30px #f5eeee,
+                0 0 50px #f5eeee;
+    font-size: 130%;
     font-weight: 600;
     line-height: 65px;
     text-align: center;
@@ -71,7 +74,7 @@ nav ul li a{
     position: relative;
     color:white;
     text-decoration: none;
-    font-size:18px;
+    font-size:90%;
     font-weight: 500;
     padding-left:40px ;
     display: block;
@@ -101,10 +104,17 @@ nav ul ul li{
     line-height: 42px;
     border-bottom: none;
 }
+nav ul ul li a::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 10px;
+    margin-left: 10px;
+}
 nav ul ul li a{
-    font-size: 17px;
+    font-size: 80%;
     color: #e6e6e6;
-    padding-left: 80px;
 }
 nav ul li a span{
     position: absolute;
