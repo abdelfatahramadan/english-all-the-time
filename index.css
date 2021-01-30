@@ -33,13 +33,6 @@
 }
 
 
-.container_2{
-    margin: 0 auto;
-    width: 80%;
-}
-.button_2{
-    float: right;
-}
 .button_2:hover,.button_1:hover{
     opacity: .7;
 }
@@ -54,4 +47,6 @@
     border: none;
     outline: none;
     box-shadow: 5px 5px 5px #777;
+    display: block;
+    margin: 5% auto;
 }
