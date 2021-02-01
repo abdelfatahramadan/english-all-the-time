@@ -34,19 +34,23 @@ p{
 }
 
 
-.container p{
+.container{
     margin: 5% 0;
+    text-align: center;
 }
+.container h3{
+    height: 50px;
+}
+.container p{
+    height: 30px;
+}
+
+
+
 caption{
     font-size:20px;
     font-weight: 600;
 }
-.con{
-    width: 90%;
-    
-}
-
-
 table{
     border-collapse: collapse;
     width: 100%;
@@ -54,26 +58,13 @@ table{
 }
 table,tr,td,th{
     border: 1px solid #000000;
+    text-align: center;
 }
 th{
-    font-size: 23px;
-    font-weight: 800;
+    font-size: 25px;
 }
 td{
     font-size: 20px;
-    width: 50%;
-    padding-left: 10px;
-}
-table tr td:first-child{
-    direction: rtl;
-    padding-right: 10px;
-}
-.c{
-    width: 80%;
-}
-.c td{
-    width: 20%;
-    text-align: center;
 }
 
 

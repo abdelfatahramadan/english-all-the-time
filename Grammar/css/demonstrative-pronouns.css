@@ -13,22 +13,31 @@
     text-align: center;
     padding-top: 5%;
 }
-h1{
+p{
+    direction: rtl;
+    font-size: 20px;
+    padding-right:30px;
+}
+.cont h1{
     padding-top:20px;
     height: 100px;
-    line-height: 25px;
+    line-height: 50px;
     border:2px solid blue;
     box-shadow: 0 0 5px #32246d,
                 0 0 25px #32246d,
                 0 0 50px #32246d;
-    font-size: 150%;
+    font-size: 20px;
 }
-p{
-    margin-top: 5%;
+.a{
+    text-align: center;
+    font-size: 15px;
 }
+
+
 table{
     width: 100%;
     border-collapse: collapse;
+    margin: 5% auto;
 }
 table,tr,td,th{
     border: 1px solid #000000;
@@ -55,4 +64,10 @@ img{
     text-decoration: none;
     text-align: center;
     margin-top: 5%;
+}
+
+@media screen and (max-width:400px){
+    .cont h1{
+        font-size: 15px;
+    }
 }

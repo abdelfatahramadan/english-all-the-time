@@ -8,12 +8,17 @@
 }
 .cont{
     height: 200px;
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
     padding-top: 5%;
 }
-h1{
+p{
+    direction: rtl;
+    font-size: 20px;
+    padding-right:30px;
+}
+.cont h1{
     padding-top:20px;
     height: 100px;
     line-height: 50px;
@@ -21,22 +26,31 @@ h1{
     box-shadow: 0 0 5px #32246d,
                 0 0 25px #32246d,
                 0 0 50px #32246d;
-    font-size: 150%;
+    font-size: 20px;
 }
-p{
-    margin-top: 5%;
+.a{
+    text-align: center;
+    font-size: 15px;
 }
+
+
+
+
 .container{
     direction: rtl;
     padding-right: 30px;
+    margin: 5% 0;
 }
 dt{
     font-size: 25px;
     font-weight: 700;
+    margin-top: 3% ;
 }
 dd{
     font-size: 20px;
 }
+
+
 caption{
     font-size:20px;
     font-weight: 600;
@@ -44,6 +58,7 @@ caption{
 table{
     border-collapse: collapse;
     width: 100%;
+    margin: 5% auto;
 }
 table,tr,td{
     border: 1px solid #000000;
@@ -57,6 +72,8 @@ table tr td:first-child{
     direction: rtl;
     padding-right: 10px;
 }
+
+
 .link a{
     display: block;
     color: rgb(255,0,0);
@@ -65,4 +82,10 @@ table tr td:first-child{
     text-decoration: none;
     text-align: center;
     margin-top: 5%;
+}
+
+@media screen and (max-width:400px){
+    .cont h1{
+        font-size: 10px;
+    }
 }
